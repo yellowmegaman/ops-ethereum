@@ -1,0 +1,12 @@
+---
+ethereum:
+  version: v1.8.23
+  ram: 2048
+  port: 8545
+  count: 1
+  datadir: /opt/ethereum
+  rpcaddr: 0.0.0.0
+  syncmode: full
+  rpcvhosts: *
+  cache: 2048
+  maxpeers: 25
