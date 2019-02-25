@@ -1,5 +1,5 @@
 job "ethereum" {
-  datacenters = ["[[env "DC"]]"
+  datacenters = ["[[env "DC"]]"]
   type = "service"
   group "ethereum" {
     update {
